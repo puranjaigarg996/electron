@@ -80,6 +80,7 @@ class BundledDataSource : public content::URLDataSource {
 }  // namespace
 
 const char PdfViewerUI::kHost[] = "pdf-viewer";
+const char PdfViewerUI::kId[] = "viewId";
 
 PdfViewerUI::PdfViewerUI(content::BrowserContext* browser_context,
                          content::WebUI* web_ui,
