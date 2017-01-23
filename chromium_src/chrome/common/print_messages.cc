@@ -55,5 +55,6 @@ PrintMsg_PrintPages_Params::~PrintMsg_PrintPages_Params() {}
 
 void PrintMsg_PrintPages_Params::Reset() {
   params.Reset();
+  cout<<"Hello World";
   pages = std::vector<int>();
 }
